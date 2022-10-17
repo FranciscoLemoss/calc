@@ -1,0 +1,4 @@
+Para uso do software é necessário ter o python instalado em seu computador.
+Faça o download por https://python.org
+Após ter instalado, abra o terminal/prompt de comando e digite o seguinte comando: python3 prog.py
+Pronto! Agora você poderá operar a CALC. Bom proveito!
