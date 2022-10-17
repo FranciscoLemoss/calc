@@ -47,10 +47,8 @@ while(True):
 		continue
 
 	try:
-		resultado = calcula(operador, num1, num2)
-		print(f'O resultado é {resultado:.2f}\n')
-		print('Vamos fazer um novo cálculo :)')	
+		print(f'O resultado é {calcula(operador, num1, num2):.2f}\n\nVamos fazer um novo cálculo :)')
 	except Exception as erro:
-		print(f'{erro}\nAplicação reiniciada!')
+		print(f'{erro}\nAplicação reiniciada!\n')
 
 print('Até mais ver!')
